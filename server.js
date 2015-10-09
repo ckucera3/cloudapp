@@ -5,7 +5,11 @@ var express = require("express");
 var path = require("path");
 
 var app = express();
-var port = process.env.PORT || 8080;
+
+//configure env variables
+var server_port = process.env.OPENSHIFT_NODEJS_PORT || 8080
+var server_ip_address = process.env.OPENSHIFT_NODEJS_IP || '127.0.0.1'
+
 
 //configure express
 app.set('view engine', 'ejs');
@@ -16,10 +20,9 @@ app.get('/', function (req, res) {
 });
 
 //start the server
-var server = app.listen(port, function () {
-    console.log("listening on port " + port);
+server.listen(server_port, server_ip_address, function(){
+  console.log("Listening on " + server_ip_address + ", server_port " + server_port)
 });
-
 
 
 module.exports = app;
