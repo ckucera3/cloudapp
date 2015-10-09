@@ -1,0 +1,28 @@
+{
+  "name": "cloudapp",
+  "version": "1.0.0",
+  "description": "An app about clouds.",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ckucera3/cloudapp.git"
+  },
+  "keywords": [
+    "clouds",
+    "gtwebdev",
+    "node"
+  ],
+  "author": "Clayton Kucera",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ckucera3/cloudapp/issues"
+  },
+  "homepage": "https://github.com/ckucera3/cloudapp#readme",
+  "dependencies": {
+    "express": "^4.13.3"
+  }
+}
