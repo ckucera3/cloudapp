@@ -5,7 +5,7 @@ var express = require("express");
 var path = require("path");
 
 var app = express();
-var port = process.env.PORT || 3000;
+var port = process.env.PORT || 8080;
 
 //configure express
 app.set('view engine', 'ejs');
