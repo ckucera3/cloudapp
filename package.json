@@ -23,6 +23,7 @@
   },
   "homepage": "https://github.com/ckucera3/cloudapp#readme",
   "dependencies": {
-    "express": "^4.13.3"
+    "express": "^4.13.3",
+    "hbs": "^3.1.1"
   }
 }

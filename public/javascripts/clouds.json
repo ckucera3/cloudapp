@@ -1,0 +1,22 @@
+{
+    "clouds": [
+        {
+            "name": "cirrus",
+            "description": "thin, wispy",
+            "cloud classification symbol": "Ci",
+            "planets": [
+                "Mars",
+                "Earth"
+            ]
+        },
+        {
+            "name": "cumulonimbus",
+            "description": "dense, vertical",
+            "cloud classification symbol": "Cb",
+            "planets": [
+                "Jupiter",
+                "Earth"
+            ]
+        }
+    ]
+}
