@@ -13,15 +13,20 @@ body
     background-color: #A6D9F7;
 }
 
-h1
+h1, h2
 {
-	margin:50px 0;
-	line-height:1;
-	font-size:100px;
-	color: #E9FAE3;
-	text-shadow:-2px 0 0 rgba(0, 0, 0, 0.5);
+    margin:50px 0;
+    line-height:1;
+    font-size:100px;
+    color: #E9FAE3;
+    text-shadow:-2px 0 0 rgba(0, 0, 0, 0.5);
     font-family: 'Roboto Slab', "Helvetica Neue", Helvetica, sans-serif;
     font-weight: 700;
+}
+
+h2
+{
+    font-size: 200%;
 }
 
 ul {
@@ -51,4 +56,29 @@ a:link, a:visited {
 
 a:hover, a:active {
     background-color: #90BEDE;
+}
+
+.cloud-section {
+    border-style: solid;
+    border-color: silver;
+    border-radius: 50px;
+    background-color: #A6FFFF;
+    margin:10px;
+    padding:10px;
+    display: inline-block;
+}
+
+.cloud-image {
+    float: left;
+    background-color: white;
+    width: 50px;
+    height: 50px;
+    border-radius: 25px;
+    display: inline-block;
+}
+
+.cloud-text {
+    display: inline-block;
+    float:left;
+    padding-right: 10px;
 }
